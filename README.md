@@ -10,7 +10,9 @@ Why make a package for such a small thing ?
 -------------------------------------------
 
 Because I saw more than one Emacs package doing that thing and I
-needed it too. I prefer to do that in a separate file because:
+needed it too. 
+
+I prefer to do that in a separate file because:
 
 * it can be used by one or more package
 * it can be enhanced to handle different window systems more
@@ -24,6 +26,7 @@ At the moment of this writing the code is shamelessly stolen from the
 
 Here is a list of packages that implements similar routines inside
 their code.
+
 * [esense](http://esense.sourceforge.net)
 * [Pos Tip](http://www.emacswiki.org/PosTip)
 * [tooltip-help.el](http://www.emacswiki.org/emacs/tooltip-help.el)
